@@ -19,7 +19,7 @@ import net.robotmodel67.juno.repos.SourceRepository;
 import net.robotmodel67.juno.repos.UserRepository;
 
 @RestController
-@RequestMapping(path = "/resources/files")
+@RequestMapping(path = "/resources/sources")
 public class SourceResource {
 
 	@Autowired
